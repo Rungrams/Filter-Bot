@@ -71,7 +71,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/file/fc734b227985a1524e715.jpg"
+    img = "https://telegra.ph/file/bd38f74a32f02d5b92e70.jpg"
 else:
   img = START_IMG    
     
@@ -282,7 +282,7 @@ def get_help(bot: Bot, update: Update):
         update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="⚙️Help",url="t.me/{}?start=help".format(bot.username))],  
-                                                [InlineKeyboardButton(text="😴Contact Creator",url="https://t.me/D_ar_k_Angel")]]))
+                                                [InlineKeyboardButton(text="DEVLOAPER👩‍💻",url="https://t.me/rungram")]]))
         return
 
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
